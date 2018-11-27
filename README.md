@@ -30,3 +30,10 @@
 
       e.Logger.Fatal(e.Start(":1323"))
     }
+    
+# test code
+
+    go run server.go
+    
+    curl http://localhost:1323/
+    curl http://localhost:1323/users/Joe
